@@ -1,0 +1,520 @@
+
+/**Dropdown menu***/
+.dropdown:hover > .dropdown-menu
+{
+    display: block;   
+}
+.dropdown-menu2:hover .dropdown-menu1
+{
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu1{
+   margin: -35px -100px 0 -210px;
+}
+
+.item2:hover{
+    color: #f85A40 !important;
+}
+
+/**global font and color**/
+.pri-bg-col
+{
+    background-color: #008374 !important;
+}
+.sec-bg-col{
+    color: #006A5D !important;
+}
+.pri-text-col{
+    color: #FFFFFF !important;
+}
+.sec-text-col{
+    color: #FFFFFF99 !important;
+}
+.nav-font{
+    font-family: 'Poppins', sans-serif;
+}
+.brand-font
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.line
+{
+    border-bottom: 2px solid #F96F59;  
+    width: 60px;
+    margin-top: 1px;
+}
+.line1
+{
+    border-bottom: 3px solid #006A5D;  
+    width: 60px;
+    margin-top: 1px;
+}
+.item1:hover
+{
+    border-bottom: 2px solid #F96F59;  
+    color: #FFFFFF !important;
+    width: 100%;
+    transition: all ease-in-out 0.1s;
+}
+/***Button****/
+.first .btn
+{
+    background-color: #FFFFFF1A; 
+    height: 53px; 
+    width: 150px;
+    position: relative;
+  right: 50px;
+  top: -40px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+/***Call to action image***/
+.call-to-action
+{
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/cta-bg.jpg) center center;
+    background-size: cover;
+    padding: 120px 60px;
+    border-radius: 15px;
+    position: relative;
+    top: 50px;
+}
+
+/***swiper***/
+.swiper {
+    width: 100%;
+    
+  }
+  .swiper-one {
+    width: 100%;    
+  }
+
+/***Mobile query***/
+@media (min-width: 320px) and (max-width: 1024px) {
+    html, body{
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+
+  .item1:hover
+  {
+    color: #FFFFFF !important;
+    border-bottom: 1px solid transparent;
+    transition: none;
+  }
+
+  .dropdown:hover > .dropdown-menu
+{
+    display: block;
+    
+}
+
+.dropdown-menu2:hover .dropdown-menu1
+{
+    display: block;
+    
+}
+
+.dropdown:hover .dropdown-menu1{
+   margin: 15px 0 0 10px;
+   width: 50%;
+}
+
+.line
+{
+    display: none;
+}
+  }
+/**Mobile***/
+  @media (max-width: 419px)
+   {  
+html, body{
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+
+    .mobile-para{
+
+    position: relative;
+    top: -8px;
+left: -20px;    
+font-size: 13px !important;
+    }
+
+    .first
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .first .btn{
+width: 150px !important;
+margin-left: 10px !important;
+    }
+    
+}
+/***Mobile***/
+@media (max-width: 450px) {
+.Contact-me .para2{
+width: 180px !important;
+}
+
+.email{
+    margin-top: -10px !important;
+}
+}
+
+  /***Tablet****/
+  @media (min-width: 766px) and (max-width: 991px) {
+    html, body{
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+
+    .big-section
+    {
+        height: 7500px !important;
+    }
+
+    .img-container
+    {
+       position: relative;
+       right: 100px;
+    }
+
+    .card{
+        width: 20rem !important;
+    }
+
+
+    .call-to-action{
+        margin-top: 70px !important;
+    }
+
+    .Services{
+        height: 1400px !important;
+    }
+
+    .email{
+        margin-top: 5px !important;
+    }
+
+    .swiper-images{
+        margin-top: 30px !important;
+    }
+
+  }
+
+  /*******Laptop*********/
+  @media(min-width: 992px) and (max-width: 1199px)
+  {
+    html, body{
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+
+    .Impact-heading{
+        position: relative;
+         top: -370px;
+         left: -280px;
+         font-size: 36px !important;
+         color: #FFFFFF;
+         font-weight: 100;
+     }
+ 
+    .Impact-para{
+         position: relative;
+         top: -380px;
+     left: 2px;
+         width: 38%;
+         
+     }
+ 
+     .first
+     {
+ display: flex;
+ justify-content: flex-start;
+     }
+ 
+     .first .btn{
+         width: 180px;
+         position: relative;
+         top: -400px;
+         left: 2px;
+     }
+ 
+     .big-icon .icon
+     {
+         position: relative;
+         left: -300px;
+         top: -365px;
+     }
+ 
+     .para {
+         position: relative;
+         top: -365px;
+         right: 300px;
+     }
+
+     .img-container{
+        position: relative;
+        top: -90px;
+     }
+
+     .hero1{
+height: 1300px !important
+     }
+
+     .hero3{
+     position: relative;
+     top: 1330px
+     }
+
+     .row-container .card{
+        height: 200px !important
+     }
+
+    .About-Section{
+        margin-top: -400px;
+        height: 400px !important;
+     }
+
+     .swiper-images{
+        position: relative;
+        top: 1650px;
+     }
+
+     .call-to-action{
+        position: relative;
+        top: 400px
+     }
+
+     .call-to-action .first{
+        position: relative;
+        left: 350px
+       }
+    
+     .Our-services{
+        position: relative;
+    top: -600px;
+     }
+
+     .Services{
+        margin-top: 1900px !important;
+     }
+
+     .testimonials{
+        margin-top: -430px !important;
+     }
+
+     .testimonial-container{
+        position: absolute;
+        bottom: -3150px
+     }
+     
+
+    .about-me{
+        margin-top: 400px;
+    }
+
+    .about-me p{
+        font-size: 20px !important;
+    }
+    .first-section
+    {
+        position: absolute;
+        top: 900px;
+    }
+
+    .big-section{
+        height: 5900px !important
+    }
+
+    .swiper{
+        margin-top: 920px;
+    }
+
+    .call-to-action{
+        margin-top: 1300px;
+    }
+
+    .Services .card{
+        width: 18rem !important;
+        height: 370px !important;
+    }
+
+    .Services{
+        height: 1100px !important;
+    }
+    .Services .row{
+        margin-top: -600px;
+    }
+
+    .form-control{
+        width: 900px !important;
+    }
+
+    .input-container .form-control{
+        width: 800px !important;
+        height: 50px !important;
+    }
+
+    .Contact-me{
+        margin-top: 10px !important;
+    }
+
+  }
+  /***Desktop***/
+  @media (min-width: 1200px) and (max-width: 2560px) {
+    html, body{
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+
+    .Impact-heading{
+       position: absolute;
+        top: 200px;
+        left: 80px;
+        font-size: 48px !important;
+        color: #FFFFFF;
+        font-weight: 900;
+    }
+
+    .Impact-para{
+        position: relative;
+        top: -230px;
+    left: 50px;
+        width: 38%;
+        
+    }
+
+    .first
+    {
+display: flex;
+justify-content: flex-start;
+    }
+
+    .first .btn{
+        width: 180px;
+        position: relative;
+        top: -270px;
+        left: 100px;
+    }
+
+    .big-icon .icon
+    {
+        position: absolute;
+        left: -390px;
+        top: -240px;
+    }
+
+    .para {
+        position: relative;
+        top: -240px;
+        right: 380px;
+        
+    }
+
+
+    .row-container{
+    position: relative;
+     top: 150px;
+     z-index: 1;
+    
+    }
+
+    .hero1{
+        height: 2600px !important;
+      
+    }
+
+    .About-Section
+    {
+       position: relative !important;
+       top: 200px !important;
+    }
+
+   .swiper-images
+   {
+    position: absolute !important;
+    top: 2000px;
+   }
+
+   .Call-to-action{
+margin-top: -600px;    
+height: 700px !important
+   }
+
+   .call-to-action .first{
+    position: relative;
+    left: 300px
+   }
+
+    .Services
+{
+    position: relative;
+    top: -280px;
+    height: 1000px !important;
+}
+
+.swiper-one{
+margin-top: -200px !important;
+}
+
+.testimonial{
+    margin-top: -300px;
+}
+
+.testimonial-container{
+    margin-top: 100px !important;
+}
+
+.testimonials-col{
+    margin-top: 300px;
+}
+
+.Contact-me{
+    position: relative;
+    
+}
+
+.big-section{
+    height: 5300px !important;
+}
+
+.contact-container .row{
+    width: 40% !important;
+    margin-left: 70px !important;
+}
+
+.contact-container .form-control{
+    
+        width: 200% !important;
+        margin-top: 5px !important;
+        margin-left: 10px;
+}
+
+.input-container{
+    position: relative;
+    left: 450px;
+    top: -605px;
+    padding-left: 200px;
+    height: 547px !important;
+    background-color: #FFFFFF;
+}
+
+.input1{
+    width: 200px !important;
+    margin: 30px 0 0 -33px;
+    height: 50px;
+}
+
+.input-container button{
+    margin: 70px 0 0 70px;
+}
+  }
+
+
