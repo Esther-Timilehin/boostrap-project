@@ -75,7 +75,7 @@
 /***Call to action image***/
 .call-to-action
 {
-background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/cta-bg.jpg) center center;
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cta-bg.jpg) center center;
     background-size: cover;
     padding: 120px 60px;
     border-radius: 15px;
