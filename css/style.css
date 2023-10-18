@@ -129,7 +129,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imag
 }
   }
 /**Mobile***/
-  @media (max-width: 419px)
+ /** @media (max-width: 419px)
    {  
 html, body{
         overflow-x: hidden;
@@ -157,7 +157,7 @@ margin-left: 10px !important;
     
 }
 /***Mobile***/
-@media (max-width: 450px) {
+/**@media (max-width: 450px) {
 .Contact-me .para2{
 width: 180px !important;
 }
@@ -168,7 +168,7 @@ width: 180px !important;
 }
 
   /***Tablet****/
-  @media (min-width: 766px) and (max-width: 991px) {
+  /**@media (min-width: 766px) and (max-width: 991px) {
     html, body{
         overflow-x: hidden;
         max-width: 100%;
@@ -206,7 +206,7 @@ width: 180px !important;
         margin-top: 30px !important;
     }
 
-  }
+  }**/
 
   /*******Laptop*********/
   @media(min-width: 992px) and (max-width: 1199px)
